@@ -19,7 +19,7 @@ const ImagesCards = () => {
   ];
 
   return (
-    <div className='bg-gray-900 text-white p-5 w-full h-[600px]'>
+    <div className='bg-gray-900 text-white p-5 w-[600px] h-full rotate-90 lg:rotate-0 lg:w-full'>
       <div className='flex justify-center w-full h-[560px] gap-3'>
         {images.map((src, index) => (
           <div
